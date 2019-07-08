@@ -28,7 +28,7 @@ body{
 }
 
 .introduction-popup p{
-	font-size: 12px;
+	font-size: 15px;
 }
 
 .introduction-popup .title{
@@ -72,7 +72,7 @@ body{
 	position: fixed;
 	padding: 5px;
 	left: 0;
-	top: 0;
+	bottom: 0;
 	white-space: nowrap;
 	font-size: 12px;
 	background-color: #000;
@@ -85,7 +85,7 @@ body{
 	cursor: pointer;
 	position: fixed;
 	margin: 20px;
-	bottom: 0;
+	top: 0;
 	right: 40;
 	border-bottom: 1px solid;
 	font-size: 12px;
@@ -95,7 +95,7 @@ body{
 	cursor: pointer;
 	position: fixed;
 	margin: 20px;
-	bottom: 0;
+	top: 0;
 	right: 5;
 }
 
@@ -144,12 +144,12 @@ body{
 .logo{
 	margin: 20px;
 	position: fixed;
-	5oodadwa: 0;
+	top: 0;
 	left: 0;
 }
 
 .logo img{
-	width: 50px;
+	width: 90px;
 }
 
 .soundboard-gallery{
@@ -157,8 +157,8 @@ body{
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: center;
-	width: 90%;
-	margin: 75px auto;
+	width: 80%;
+	margin: 60px auto;
 	cursor: pointer;
 }
 
