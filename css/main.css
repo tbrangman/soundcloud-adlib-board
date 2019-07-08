@@ -144,7 +144,7 @@ body{
 .logo{
 	margin: 20px;
 	position: fixed;
-	5oodadwa: 0;
+	bottom: 0;
 	left: 0;
 }
 
@@ -299,7 +299,7 @@ body{
 	.logo{
 		margin: 20px;
 		position: fixed;
-		top: 0;
+		bottom: 0;
 		left: 0;
 	}
 
